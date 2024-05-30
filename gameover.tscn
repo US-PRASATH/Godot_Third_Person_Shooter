@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://otmoha0uxxtg"]
+
+[node name="gameover" type="Node2D"]
+modulate = Color(1, 1, 1, 0.384314)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 526.0
+offset_top = 130.0
+offset_right = 1042.0
+offset_bottom = 201.0
+text = "GAME OVER"

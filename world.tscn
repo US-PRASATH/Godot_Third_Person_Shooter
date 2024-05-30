@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4n2cubjki23w"]
+
+[ext_resource type="Texture2D" uid="uid://dqau55876lgkm" path="res://download.jpeg" id="1_tklsx"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3i4rb"]
+albedo_texture = ExtResource("1_tklsx")
+detail_enabled = true
+detail_albedo = ExtResource("1_tklsx")
+uv1_scale = Vector3(100, 100, 102)
+
+[node name="world" type="Node3D"]
+
+[node name="floor" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 89.1476, -75.2605, 9.12221)
+material_override = SubResource("StandardMaterial3D_3i4rb")
+size = Vector3(1000, 1, 1000)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.59874, 0.202878, -0.462747)
+size = Vector3(2.35281, 1.31302, 1)

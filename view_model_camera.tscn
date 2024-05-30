@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://cneqiqj8ddbjj"]
+
+[ext_resource type="PackedScene" uid="uid://dk0d8g80xuc1y" path="res://uploads_files_4367404_hand.glb" id="1_2gfk6"]
+
+[node name="view_model_camera" type="Camera3D"]
+
+[node name="fps_rig" type="Node3D" parent="."]
+
+[node name="shotgun" type="Node3D" parent="fps_rig"]
+
+[node name="uploads_files_4367404_hand" parent="fps_rig/shotgun" instance=ExtResource("1_2gfk6")]
+transform = Transform3D(0.0061275, -0.0729399, 0.00590856, 0.0731432, 0.00591965, -0.00277667, 0.00228166, 0.00611678, 0.0731441, 0.281644, -0.134644, -0.335607)
